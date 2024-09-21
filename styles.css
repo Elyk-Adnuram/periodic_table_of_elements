@@ -1,0 +1,95 @@
+body {
+  box-sizing: border-box;
+  background-color: #1c1c1c;
+  color: whitesmoke;
+}
+
+.elements-parent {
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+/* .first-row-dropdown {
+  grid-column-start: 12;
+  grid-column-end: 17;
+} */
+
+/* Whitespace in periodic table */
+.first-row-gap {
+  grid-column-start: 2;
+  grid-column-end: 18;
+}
+
+.second-row-gap1 {
+  grid-column-start: 3;
+  grid-column-end: 7;
+}
+
+.second-row-gap2 {
+  grid-column-start: 8;
+  grid-column-end: 13;
+}
+
+.third-row-gap {
+  grid-column-start: 3;
+  grid-column-end: 13;
+}
+
+.bottom-rows-gap {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 6;
+  grid-row-end: 10;
+}
+.bottom-rows-gap2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 8;
+  grid-row-end: 10;
+}
+
+/* Base styles for each element */
+.elements-child {
+  border: 1px solid whitesmoke;
+  text-align: center;
+}
+
+/* Styling for each element group */
+.noble-gas {
+  background-color: rgba(255, 152, 0, 0.3);
+}
+
+.alkaline-earth-metal {
+  background-color: rgba(64, 64, 255, 0.25);
+}
+
+.metalloid {
+  background-color: rgba(140, 190, 0, 0.3);
+}
+
+.post-transition-metal {
+  background-color: rgba(0, 255, 0, 0.3);
+}
+
+.transition-metal {
+  background-color: rgba(0, 128, 255, 0.3);
+}
+
+.halogen {
+  background-color: rgba(255, 255, 0, 0.3);
+}
+
+.lanthanide {
+  background-color: rgba(0, 255, 255, 0.35);
+}
+
+.actinide {
+  background-color: rgba(64, 255, 192, 0.35);
+}
+
+.alkali-metal {
+  background-color: rgba(56, 0, 0, 255);
+}
